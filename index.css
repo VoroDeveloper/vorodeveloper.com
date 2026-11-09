@@ -40,19 +40,16 @@ svg {
     margin: 0 auto;
 }
 
-
 footer {
     background: #3c3b3e;
     color: #00bfff;
     text-align: center;
     font-size: 1.1rem;    
-
 }
 
 .footer-content {
     text-align: center;
     color: #00bfff;
-
 }
 
 .footer-content > p {
@@ -79,6 +76,7 @@ footer {
     align-items: center;
     gap: 0.3em;
 }
+
 .footer-sponsor a:hover {
     color: #F4F5F6;
 }
