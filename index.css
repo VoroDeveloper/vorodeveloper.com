@@ -33,11 +33,11 @@ main {
 }
 
 svg {
-  border: 2px dashed 00bfff;    
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+    border: 2px dashed 00bfff;    
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -55,6 +55,10 @@ footer {
 
 }
 
+.footer-content > p {
+    margin: 0.4em 0;
+}
+
 .footer-social a {
     color: #00bfff;
     margin: 0 0.5rem;
@@ -67,14 +71,30 @@ footer {
 }
 
 .footer-sponsor a {
-  color: #00bfff;
-  margin: 0 0.5rem;
-  text-decoration: none;
-  transition: color 0.2s;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3em;
+    color: #00bfff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    transition: color 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
 }
 .footer-sponsor a:hover {
-  color: #F4F5F6;
+    color: #F4F5F6;
+}
+
+.footer-referral {
+    margin: 0.4em 0;
+    color: #aaa;
+    font-size: 0.95em;
+}
+
+.footer-referral a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-referral a:hover {
+    color: #F4F5F6;
+    text-decoration: underline;
 }
